@@ -29,3 +29,12 @@ form {
 .submitbutton {
     width: auto;
 }
+
+.footer {
+    padding-bottom: 20px;
+    color: grey;
+}
+
+.row main {
+    color: white;
+}
