@@ -8,6 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
     <title>Lararmie</title>
 </head>
@@ -20,7 +21,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <span class="navbar-brand mb-1 h1">Lararmie</span>
+        <span class="navbar-brand mb-1 h1">Larrarmie</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -43,32 +44,32 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-8">
-                    <style>
-                        h2 {
-                            padding-top: 40px;
-                        }
-                    </style>
+
                     <form class="text-center border border-light p-5" action="#!">
 
                         <h2>Contact</h2>
+                        <hr>
 
                         <!-- Name -->
-                        <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-control mb-4" placeholder="Name" name="name">
 
                         <!-- Email -->
-                        <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" class="form-control mb-4" placeholder="E-mail" name="email">
 
 
 
                         <!-- Message -->
                         <div class="form-group">
-                            <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+                            <label for="text">Text</label>
+                            <textarea class="form-control rounded-0" id="text" rows="3" placeholder="Message" name="text"></textarea>
                         </div>
 
 
 
                         <!-- Send button -->
-                        <button class="btn btn-info btn-block" type="submit">Submit</button>
+                        <button class="btn btn-info btn-block submitbutton" type="submit">Submit</button>
 
                     </form>
                     <!-- Default form contact -->

@@ -5,3 +5,27 @@ body {
 img {
     image-orientation: 200%;
 }
+
+h1 {
+    color: turquoise;
+    padding-bottom: 20px;
+}
+
+.main {
+    padding: 80px 40px;
+}
+
+.card {
+    margin: 10px 10px;
+}
+
+form {
+    padding: 1.2rem;
+    background-color: white;
+    margin: 60px 25px;
+    max-width: 900px;
+}
+
+.submitbutton {
+    width: auto;
+}
